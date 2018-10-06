@@ -9,6 +9,7 @@ captions: txt文件，从0开始以数值作为文件名，与images中的图片
 
 
 folder:
+some empty folders are not upload in this project, you have to create yourself.
 
 1.adaptive-attention-lstm:Adaptive-Attention-LSTM模型的复现，（该项目中基本不会用到）
 
