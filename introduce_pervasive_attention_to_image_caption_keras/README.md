@@ -1,4 +1,5 @@
 Introduction:
+
  最近一直在做Image-Caption的任务，在Fine-tuning和CNN-RNN的基础结构上尝试了加入了attention机制，这是目前处理Image-Caption任务的流行架构。然后发现今年8月份有一篇非常有意思的paper《Pervasive Attention: 2D Convolutional Neural Networks for Sequence-to-Sequence Prediction》在sep2seq任务上完全抛弃了Ecoder-Decoder结构，采用CNN结果完成生成任务。看完后，我尝试将这种pervasive-attention model迁移到手上正在做的Image-caption任务上来，发现效果也不错。关于pervasive-attention是如何应用在seq2seq任务上的，可以参考这篇博客：
 
     原文链接：https://blog.csdn.net/linchuhai/article/details/82585803
@@ -67,7 +68,7 @@ py:
 `8.test.py:测试模型`
 
 
-
+后面有时间我会写篇博客来讲解这个思路
 
 
 
